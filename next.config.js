@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+    domains: ['giphy.com', 'media.giphy.com']
+  }
 }
 
 module.exports = nextConfig
