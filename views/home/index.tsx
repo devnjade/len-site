@@ -19,8 +19,8 @@ const HomeView: React.FC = () => {
         <p>The <br /> Web3 <br /> Metaverse</p>
       </section>
       <section className={styles.info}>
-        {/* <p classname={styles.text}>be times for <br /> the new world <br /> start here!</p> */}
-        {/* <p className={`${styles.text} ${styles['text--second']}`}>earn, play, buy, sell, build, all the things you couldnt do in your physical form</p> */}
+        <p className={styles.text}>be times for <br /> the new world <br /> start here!</p>
+        <p className={`${styles.text} ${styles['text--second']}`}>earn, play, buy, sell, build, all the things you couldnt do in your physical form</p>
         <p className={`${styles.text} ${styles['text--second']}`}>earn & add other ERC20 tokens available on the ethereum / len chain</p>
       </section>
       <section className={styles.contact}>

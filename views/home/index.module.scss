@@ -25,6 +25,7 @@
   justify-content: center;
   height: 100vh;
   position: relative;
+  display: none;
 
   .text{
     font-size: 5rem;
@@ -56,6 +57,10 @@
     flex-direction: row;
     align-items: center;
     overflow-x: scroll;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
 
     button {
       display: flex;
